@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 class B;
-class A
+class A;
 class B
       {
             int o,n,qq;
@@ -18,6 +18,7 @@ class B
                 m1.q=m1.r+m1.m;
             }
 };
+class A
 {
 	int r,m,q;
 public:
